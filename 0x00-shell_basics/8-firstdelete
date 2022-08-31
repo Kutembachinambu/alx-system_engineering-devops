@@ -1,2 +1,2 @@
 #!/bin/bash
-rm /tmp/my_first_directory/*
+find /tmp/my_first_directory -name betty -delete
